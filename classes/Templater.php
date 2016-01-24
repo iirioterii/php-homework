@@ -10,7 +10,7 @@ class Templater
         $this->path = $path;
     }
     public function load() {
-        // Вытягиваем из браузера станицу
+        // Вытягиваем из браузера страницу
         if (isset($_REQUEST['page'])) {
             $page = trim($_REQUEST['page']);
         } else {
@@ -21,13 +21,13 @@ class Templater
             ob_start();
             require_once $this->path. $page. '.phtml';
             $this->content = ob_get_clean();
-            require_once  $_SERVER["DOCUMENT_ROOT"] . 'layout/'. 'layout.phtml';
+            require_once  $_SERVER["DOCUMENT_ROOT"] . '/layout/'. 'layout.phtml';
             return ob_get_clean();
         // Если файла нет, подключаем 404
         } else {
            require_once $this->path. '404.phtml';
             $this->content = ob_get_clean();
-            require_once  $_SERVER["DOCUMENT_ROOT"] . 'layout/'. 'layout.phtml';
+            require_once  $_SERVER["DOCUMENT_ROOT"] . '/layout/'. 'layout.phtml';
             return ob_get_clean();
         }
     }
