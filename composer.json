@@ -1,0 +1,22 @@
+{
+    "name": "iirioterii/second_project",
+    "description": "composer homework",
+    "type": "testing",
+    "authors": [
+        {
+            "name": "iirioterii",
+            "email": "yuriyreva@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/fosker/composer"
+        }
+    ],
+    "require": {
+        "nix/mvcfortest": "dev-master",
+        "fosker/composer": "dev-master"
+    }
+}
