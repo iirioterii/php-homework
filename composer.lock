@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3b5b25584b7c05025022f1cb42f95934",
-    "content-hash": "49c603ddcf9750fd5e292b49c37edea9",
+    "hash": "221063027fcaba20733762df29aeae02",
+    "content-hash": "b2344f9930102814909b8e0b3c22ac6d",
     "packages": [
         {
             "name": "fosker/composer",
@@ -13,7 +13,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fosker/composer",
-                "reference": "b79423fba52f77674739ecd2073fd897afa21f6a"
+                "reference": "2166df06d21fd64e8aad8f6667944cecfd3a55cf"
             },
             "type": "library",
             "autoload": {
@@ -24,44 +24,11 @@
             "authors": [
                 {
                     "name": "Bogdan Pushkarskiy",
-                    "email": "fosker3@gmail.com"
+                    "email": "fosker3@gmail.com "
                 }
             ],
             "description": "first package",
-            "time": "2016-01-14 16:19:40"
-        },
-        {
-            "name": "fosker/mycomposer",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fosker/mycomposer.git",
-                "reference": "eaf97bb639e07978fe11b969cb890c880a0f7d33"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fosker/mycomposer/zipball/eaf97bb639e07978fe11b969cb890c880a0f7d33",
-                "reference": "eaf97bb639e07978fe11b969cb890c880a0f7d33",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MyTest\\": "test/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Bogdan Pushkarskiy",
-                    "email": "fosker3@gmail.com"
-                }
-            ],
-            "description": "first composer package",
-            "time": "2016-01-14 15:42:49"
+            "time": "2016-01-15 14:16:32"
         },
         {
             "name": "monolog/monolog",
@@ -145,17 +112,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iirioterii/ComposerHomework.git",
-                "reference": "7a4824822880c7cf3117c622f26abd4357d0964e"
+                "reference": "16b2afdb34ca1a6cb3ff435119acec29d7445793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iirioterii/ComposerHomework/zipball/7a4824822880c7cf3117c622f26abd4357d0964e",
-                "reference": "7a4824822880c7cf3117c622f26abd4357d0964e",
+                "url": "https://api.github.com/repos/iirioterii/ComposerHomework/zipball/16b2afdb34ca1a6cb3ff435119acec29d7445793",
+                "reference": "16b2afdb34ca1a6cb3ff435119acec29d7445793",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "1.16",
-                "php": ">=5.3.0"
+                "monolog/monolog": "1.16"
             },
             "type": "library",
             "autoload": {
@@ -171,7 +137,7 @@
                 }
             ],
             "description": "its test package",
-            "time": "2016-01-15 10:13:29"
+            "time": "2016-01-15 16:02:00"
         },
         {
             "name": "psr/log",
@@ -225,7 +191,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "fosker/mycomposer": 20,
         "nix/mvcfortest": 20,
         "fosker/composer": 20
     },
